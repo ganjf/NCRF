@@ -1,0 +1,18 @@
+{
+ "model": "resnet18",
+ "use_crf": false,
+ "batch_size": 10,
+ "patch_size": 512,
+ "grid_size": 4,
+ "crop_size": 224,
+ "lr": 0.004,
+ "lr_1": 0.002,
+ "lr_2": 0.001,
+ "lr_3": 0.0005,
+ "momentum": 0.9,
+ "data_path_train": "/home/student2/class/coords/train.csv",
+ "data_path_valid": "/home/student2/class/coords/eval.csv",
+ "root_dir": "/mnt/data/students/traindata_patch/10x",
+ "epoch": 20,
+ "log_every": 100
+}
